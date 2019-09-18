@@ -3,7 +3,7 @@
   Implement coordinate-descent algorithm for estimation and variable selection in reparametrized penalized Gaussian models. 
 
 #### Main idea of the algorithm: 
-Make effort to provide a efficient algorithm for numerical optimization with reparametrization and other convergent properties. The algorithm's purpose is to tackle with sparsity and large number of features  
+Make effort to provide a efficient algorithm for numerical optimization with reparametrization and other convergent properties. The algorithm's purpose is to tackle with sparsity and large number of features. The goal is to extend to multivariate response case.  regression case   
 
 #### File Instruction 
   * dmlsim.R  is the simulation script
