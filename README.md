@@ -8,9 +8,9 @@ Make effort to provide a efficient algorithm for numerical optimization with rep
 #### File Instruction 
   * dmlsim.R  is the simulation script
   * JointSol_rep.R is revised DML algorithm by Lee & Liu to fit our case  
-  * UpdatePhi_rep.c is script to update the new parameter Phi 
+  * UpdatePhi_rep.c is the script to update the new parameter Phi 
   * cv_dml.R is the script containing cross validation as well as dmlpath function ( fit model for a vector of lambdas)
-  * mvnorm.R is a open package for multivariate normal distribution 
+  * mvnorm.R is an open package for multivariate normal distribution 
   
 #### Note
   * To run R code, you first need to compile the C code on your local machine 
@@ -23,4 +23,4 @@ Städler, Nicolas & Bühlmann, Peter & van de Geer, Sara. (2010). L1-Penalizatio
 ```
 Lee, Wonyul & Liu, Yufeng. (2012). Simultaneous Multiple Response Regression and Inverse Covariance Matrix Estimation via Penalized Gaussian Maximum Likelihood. Journal of multivariate analysis. 111. 241-255. 10.1016/j.jmva.2012.03.013. 
 ```
-#### In progress 
+####
