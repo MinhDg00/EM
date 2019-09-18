@@ -14,7 +14,7 @@ Make effort to provide a efficient algorithm for numerical optimization with rep
   
 #### Note
   * To run R code, you first need to compile the C code on your local machine 
-  * With slightly large size of data, the code can run very slowly. The computation can be unstable for large number of features/ dimensions
+  * With large size of data, the code can run very slowly. 
   
 #### Reference
 ```
