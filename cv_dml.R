@@ -84,7 +84,7 @@ cvdmlpath <- function(y,x,lambda,K=10){
   for (i in seq(K)){
     omit <- all.folds[[i]]
     fit1 <- dmlpath(y=y[-omit,],x=x[-omit,],lambda=lambda)
-    errmat[,i] <- predloss(fit1,x[omit,],y[omit])$loss
+    errmat[,i] <- predloss(fit1,x[omit,],y[omit,])$loss
     cat("\n CV Fold", i, "\n\n")
   }
   cv <- apply(errmat, 1, mean)
