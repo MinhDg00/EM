@@ -23,7 +23,7 @@ set.seed(13)
 n <- 500   # nr of observation 
 p <- 80  # nbr of component of x
 m  <- 2 # nbr of component of y 
-k <- 1
+k <- 1  # nbr of mixture model
 x <- matrix(rnorm(n*p),n,p) 
 prob = 1
 beta <- array(0, dim = c(p,m)) 
