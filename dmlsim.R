@@ -1,5 +1,4 @@
 rm(list=ls())
-setwd("~/Documents/Research /BCM-GEM Algorithm/Reparametrized DML")
 gc(TRUE)
 source("JointSol_rep.R")
 source ("mvnorm.R")
