@@ -1,8 +1,8 @@
 rm(list=ls())
 gc(TRUE)
 source("JointSol_rep.R")
-source ("mvnorm.R")
 source("cv_dml.R")
+library(mvtnorm)
 
 # Matrix Power
 "%^%" =  function(x, n) 
