@@ -9,9 +9,8 @@ Make effort to provide a efficient algorithm for numerical optimization with rep
   * dmlsim.R  is the simulation script
   * JointSol_rep.R is revised DML algorithm by Lee & Liu to fit our case  
   * UpdatePhi_rep.c is the script to update the new parameter Phi 
-  * cv_dml.R is the script containing cross validation as well as dmlpath function ( fit model for a vector of lambdas)
-  * mvnorm.R is an open package for multivariate normal distribution. You will need to install the package to run the script
-  
+  * cv_dml.R is the script containing cross validation as well as dmlpath function ( fit model for a vector of lambdas)  
+
 #### Note
   * To run R code, you first need to compile the C code on your local machine 
   * With large size of data, the code can run very slow. 
