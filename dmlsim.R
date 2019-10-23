@@ -57,9 +57,9 @@ apply(fdml$coef, 3, function(x) x[1:10,2])
 apply(fdml$Phi, 3, function(x) x[1:10,1])
 apply(fdml$Phi, 3, function(x) x[1:10,2])
 
-apply(fdml$P, 3, function(x) x[1:10,1])
-apply(fdml$P, 3, function(x) x[1:10,2])
-apply(fdml$P, 3, eigen)
+#apply(fdml$P, 3, function(x) x[1:10,1])
+#apply(fdml$P, 3, function(x) x[1:10,2])
+#apply(fdml$P, 3, eigen)
 
 fdml$covar[,,1]
 
