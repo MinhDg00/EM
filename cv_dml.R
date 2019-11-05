@@ -1,5 +1,7 @@
+# Import packages
 library(mvtnorm)
 
+# Matrix Power Function
 "%^%" =  function(x, n) 
   with(eigen(x), vectors %*% (values^n * t(vectors)))
 
