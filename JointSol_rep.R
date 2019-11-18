@@ -1,3 +1,5 @@
+# Join update on the reparametrized value  
+
 library(glasso)
 library(lars)
 
