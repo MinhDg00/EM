@@ -85,6 +85,7 @@ double *W, double *lambda, int *idx)
     updated_Phi = sign(sign_factor)*sign_factor-(*lambda)*W[p*M+m]/(2*sign_factor2);
     Phi[p*M+m] = sign(sign_factor)*updated_Phi*(updated_Phi>0);
     
+    
     free(residual);
     free(presidual);
 }
