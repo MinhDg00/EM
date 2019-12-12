@@ -1,6 +1,6 @@
 
 #### Research project supervised by Prof. Sunyoung Shin.
-  Implement coordinate-descent algorithm for estimation and variable selection in reparametrized penalized Gaussian models. 
+  Implement Block Coordinate-Descent algorithm for estimation and variable selection in reparametrized penalized Gaussian models. 
 
 #### Main idea of the algorithm: 
 Make effort to provide a efficient algorithm for numerical optimization with reparametrization and other convergent properties. The algorithm's purpose is to tackle with sparsity and large number of features.  
