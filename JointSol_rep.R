@@ -1,8 +1,5 @@
 # Join update on the reparametrized value  
 
-library(glasso)
-library(lars)
-
 JointSol = function(Y,X,lambda){
 	
 	N = dim(Y)[1]
