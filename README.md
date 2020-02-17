@@ -1,9 +1,9 @@
 
 #### Research project supervised by Prof. Sunyoung Shin.
-  Implement Block Coordinate-Descent algorithm for estimation and variable selection in reparametrized penalized Gaussian models. 
+•	Proposed a penalized Gaussian maximum likelihood estimation and variable selection method with appropriate reparameterization in multiple response regression model, and wrote code for this algorithm
 
 #### Main idea of the algorithm: 
-Make effort to provide a efficient Lasso type estimator for numerical optimization with other convergent properties. The algorithm's purpose is to tackle with sparsity and large number of features.  
+Make effort to provide a efficient Lasso type estimator with parameterization tricks. The algorithm's purpose is to tackle with sparsity and large number of features.  
 
 #### File Instruction 
   * dmlsim.R  is the simulation script
