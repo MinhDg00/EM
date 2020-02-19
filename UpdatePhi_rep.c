@@ -15,7 +15,7 @@ double *W, double *lambda, double *updatePhi, int *iteration)
     double maxDiff = 1;
     int iter_count = 0;
     
-    while(maxDiff>1e-4 && iter_n<1000)
+    while(maxDiff>1e-6 && iter_n<1000)
     {
         maxDiff = 0;
         
